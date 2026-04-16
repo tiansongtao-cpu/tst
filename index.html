@@ -3,152 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>多智能体对抗博弈研究 | 招新网站</title>
-  <meta name="description" content="多智能体对抗博弈研究招新网站，展示项目概述、研究亮点、核心团队、招新计划与联系方式。">
+  <title>多智能体对抗博弈研究</title>
+  <meta name="description" content="多智能体对抗博弈研究招新页面。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <a class="brand" href="#top">多智能体对抗博弈研究</a>
-      <div class="nav-links">
-        <a href="#about">项目概述</a>
-        <a href="#highlights">研究亮点</a>
-        <a href="#team">核心团队</a>
-        <a href="#join">招新计划</a>
-        <a href="#contact">联系我们</a>
-      </div>
-    </nav>
+  <main class="page">
+    <article class="document">
+      <header class="doc-header">
+        <h1>多智能体对抗博弈研究</h1>
+        <h3>Research on Multi-Agent Adversarial Games</h3>
+      </header>
 
-    <section class="hero-content" id="top">
-      <p class="eyebrow">2027 级招新</p>
-      <h1>多智能体对抗博弈研究</h1>
-      <p class="hero-subtitle">Research on Multi-Agent Adversarial Games</p>
-      <div class="hero-actions">
-        <a class="button primary" href="#about">查看详情</a>
-        <a class="button secondary" href="#contact">联系老师</a>
-      </div>
-    </section>
-  </header>
+      <section class="doc-section" id="overview">
+        <h3>1. 项目概述 | Overview</h3>
+        <p>
+          本项目致力于探索具身智能（Embodied AI）在极端动态对抗环境下的应用。以 RoboMaster 赛事为背景，
+          深入研究多机器人系统在完全自主条件下的协作博弈、集群决策与控制算法，构建从仿真到实体的闭环验证体系。
+          部分前期成果已发表于 ICML、ICLR、CVPR、IEEE RA-L、IEEE TMech 等顶级会议、期刊等。
+        </p>
+      </section>
 
-  <main>
-    <section class="section document" id="about">
-      <div class="doc-shell">
-        <section class="doc-block reveal">
-          <h2>1. 项目概述 | Overview</h2>
-          <p>
-            本项目致力于探索具身智能（Embodied AI）在极端动态对抗环境下的应用。以 RoboMaster 赛事为背景，
-            深入研究多机器人系统在完全自主条件下的协作博弈、集群决策与控制算法，构建从仿真到实体的闭环验证体系。
-            部分前期成果已发表于 ICML、ICLR、CVPR、IEEE RA-L、IEEE TMech 等顶级会议、期刊等。
-          </p>
-        </section>
+      <section class="doc-section" id="highlights">
+        <h3>2. 研究亮点 | Research Highlights</h3>
 
-        <section class="doc-block reveal" id="highlights">
-          <h2>2. 研究亮点 | Research Highlights</h2>
+        <h4>2.1 全栈式硬件实验平台 (Physical Platform)</h4>
+        <ul>
+          <li><strong>复杂场景复刻</strong>：200㎡ 场地，集成坡道、高地等非平整地形，障碍物可模块化重组。</li>
+          <li><strong>标准对战单元</strong>：配备 6 台标准 RM 步兵机器人，深度定制传感器方案。</li>
+          <li><strong>多模态感知</strong>：集成激光雷达 (LiDAR)、RGB-D 相机、工业视觉相机。</li>
+          <li><strong>计算矩阵</strong>：从高性能 GPU 工作站到 Jetson 嵌入式边缘计算端，覆盖全链条算力需求。</li>
+        </ul>
 
-          <h3>2.1 全栈式硬件实验平台 (Physical Platform)</h3>
-          <ul class="doc-list">
-            <li><strong>复杂场景复刻</strong>：200㎡ 场地，集成坡道、高地等非平整地形，障碍物可模块化重组。</li>
-            <li><strong>标准对战单元</strong>：配备 6 台标准 RM 步兵机器人，深度定制传感器方案。</li>
-            <li><strong>多模态感知</strong>：集成激光雷达 (LiDAR)、RGB-D 相机、工业视觉相机。</li>
-            <li><strong>计算矩阵</strong>：从高性能 GPU 工作站到 Jetson 嵌入式边缘计算端，覆盖全链条算力需求。</li>
-          </ul>
+        <h4>2.2 高保真仿真环境 (Simulation)</h4>
+        <ul>
+          <li><strong>1:1 数字孪生</strong>：物理环境、机器人动力学特性的高精度建模。</li>
+          <li><strong>高并行训练</strong>：支持强化学习算法在大规模并发环境下的高效训练与迭代。</li>
+        </ul>
 
-          <h3>2.2 高保真仿真环境 (Simulation)</h3>
-          <ul class="doc-list">
-            <li><strong>1:1 数字孪生</strong>：物理环境、机器人动力学特性的高精度建模。</li>
-            <li><strong>高并行训练</strong>：支持强化学习算法在大规模并发环境下的高效训练与迭代。</li>
-          </ul>
+        <h4>2.3 虚实迁移技术 (Sim2Real &amp; Digital Twin)</h4>
+        <ul>
+          <li><strong>全场动捕系统</strong>：高精度动作捕捉覆盖，实现毫秒级数据反馈。</li>
+          <li><strong>平行指令验证</strong>：通过完善的虚实接口，实现算法在虚拟环境与真实场景的平滑部署。</li>
+        </ul>
+      </section>
 
-          <h3>2.3 虚实迁移技术 (Sim2Real &amp; Digital Twin)</h3>
-          <ul class="doc-list">
-            <li><strong>全场动捕系统</strong>：高精度动作捕捉覆盖，实现毫秒级数据反馈。</li>
-            <li><strong>平行指令验证</strong>：通过完善的虚实接口，实现算法在虚拟环境与真实场景的平滑部署。</li>
-          </ul>
-        </section>
+      <section class="doc-section" id="team">
+        <h2>3. 核心团队 | Research Group</h2>
+        <p>项目由国内顶尖高校科研力量联袂驱动，具备深厚的学术积淀与工程实力。</p>
+        <ul>
+          <li><strong>牵头单位</strong>：清华大学</li>
+          <li><strong>合作网络</strong>：浙江大学、南开大学、大连理工大学、西北工业大学、中科院自动化所、上海交通大学等。</li>
+          <li><strong>人才输送</strong>：我们拥有完善的硕博培养体系，为成员提供广阔的学术上升空间。</li>
+        </ul>
+      </section>
 
-        <section class="doc-block reveal" id="team">
-          <h2>3. 核心团队 | Research Group</h2>
-          <p>项目由国内顶尖高校科研力量联袂驱动，具备深厚的学术积淀与工程实力。</p>
-          <ul class="doc-list">
-            <li><strong>牵头单位</strong>：清华大学</li>
-            <li><strong>合作网络</strong>：浙江大学、南开大学、大连理工大学、西北工业大学、中科院自动化所、上海交通大学等。</li>
-            <li><strong>人才输送</strong>：我们拥有完善的硕博培养体系，为成员提供广阔的学术上升空间。</li>
-          </ul>
-        </section>
+      <section class="doc-section" id="join">
+        <h2>4. 招新计划 | Join Us</h2>
 
-        <section class="doc-block reveal" id="join">
-          <h2>4. 招新计划 | Join Us</h2>
+        <h3>4.1 申请要求</h3>
+        <ul>
+          <li><strong>核心期望</strong>：寻找对机器人学（Robotics）与人工智能（AI）充满热忱，并渴望在 <strong>VLA模型、端到端模型、世界模型、集群决策、感知与规划</strong> 等前沿方向挑战自我的优秀学子。</li>
+          <li>
+            <strong>实习生计划</strong>：
+            <ul>
+              <li>热忱欢迎优秀的本科生作为科研实习生加入团队，参与前沿项目并积累硬核科研经验。</li>
+              <li>长期招募，表现优异者推荐保研/直博名额。</li>
+            </ul>
+          </li>
+        </ul>
 
-          <h3>4.1 申请要求</h3>
-          <ul class="doc-list">
-            <li><strong>核心期望</strong>：寻找对机器人学（Robotics）与人工智能（AI）充满热忱，并渴望在 <strong>VLA模型、端到端模型、世界模型、集群决策、感知与规划</strong> 等前沿方向挑战自我的优秀学子。</li>
-            <li><strong>实习生计划</strong>：
-              <ul class="doc-sublist">
-                <li>热忱欢迎优秀的本科生作为科研实习生加入团队，参与前沿项目并积累硬核科研经验。</li>
-                <li>长期招募，表现优异者推荐保研/直博名额。</li>
-              </ul>
-            </li>
-          </ul>
+        <h3>4.2 开放名额</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>招生机构</th>
+                <th>培养类型</th>
+                <th>入学批次</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>清华大学 (本部)</td>
+                <td>博士生</td>
+                <td>2027级</td>
+              </tr>
+              <tr>
+                <td>浙江大学</td>
+                <td>博士生</td>
+                <td>2027级</td>
+              </tr>
+              <tr>
+                <td>清华大学深圳国际研究生院</td>
+                <td>博士生 / 硕士生</td>
+                <td>2027级</td>
+              </tr>
+              <tr>
+                <td>南开大学</td>
+                <td>博士生 / 硕士生</td>
+                <td>2027级</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-          <h3>4.2 开放名额</h3>
-          <div class="table-wrap">
-            <table class="slots-table">
-              <thead>
-                <tr>
-                  <th>招生机构</th>
-                  <th>培养类型</th>
-                  <th>入学批次</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>清华大学（本部）</td>
-                  <td>博士生</td>
-                  <td>2027级</td>
-                </tr>
-                <tr>
-                  <td>浙江大学</td>
-                  <td>博士生</td>
-                  <td>2027级</td>
-                </tr>
-                <tr>
-                  <td>清华大学深圳国际研究生院</td>
-                  <td>博士生 / 硕士生</td>
-                  <td>2027级</td>
-                </tr>
-                <tr>
-                  <td>南开大学</td>
-                  <td>博士生 / 硕士生</td>
-                  <td>2027级</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section class="doc-block reveal" id="contact">
-          <h2>5. 联系我们 | Contact Us</h2>
-          <p>欢迎志同道合的同学发送简历及个人陈述（附件请注明：姓名-学校-申请）。</p>
-          <ul class="doc-list">
-            <li><strong>联系人</strong>：李老师</li>
-            <li><strong>联系电话</strong>：18624368095</li>
-            <li><strong>电子邮箱</strong>：<a href="mailto:lishaohui.ac@gmail.com">lishaohui.ac@gmail.com</a></li>
-          </ul>
-          <div class="doc-actions">
-            <a class="button primary large" href="mailto:lishaohui.ac@gmail.com">发送邮件</a>
-          </div>
-        </section>
-      </div>
-    </section>
+      <section class="doc-section" id="contact">
+        <h2>5. 联系我们 | Contact Us</h2>
+        <p>欢迎志同道合的同学发送简历及个人陈述（附件请注明：姓名-学校-申请）。</p>
+        <ul>
+          <li><strong>联系人</strong>：李老师</li>
+          <li><strong>联系电话</strong>：18624368095</li>
+          <li><strong>电子邮箱</strong>：<a href="mailto:lishaohui.ac@gmail.com">lishaohui.ac@gmail.com</a></li>
+        </ul>
+      </section>
+    </article>
   </main>
-
-  <footer class="footer">
-    <p>© 2026 多智能体对抗博弈研究. Built with GitHub Pages.</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>
