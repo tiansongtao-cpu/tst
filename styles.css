@@ -79,17 +79,20 @@ h4 {
 
 .hero-video {
   margin-top: 22px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  box-shadow: var(--shadow);
-  background: #000;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .hero-video video {
   display: block;
   width: 100%;
   height: auto;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  background: #000;
 }
 
 .doc-section + .doc-section {
