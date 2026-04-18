@@ -77,6 +77,21 @@ h4 {
   margin-top: 14px;
 }
 
+.hero-video {
+  margin-top: 22px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  background: #000;
+}
+
+.hero-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .doc-section + .doc-section {
   margin-top: 34px;
 }
