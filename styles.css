@@ -81,7 +81,7 @@ h4 {
   margin-top: 22px;
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 10px;
   box-shadow: var(--shadow);
   background: #000;
 }
