@@ -48,7 +48,7 @@ h4 {
 }
 
 .document {
-  max-width: 920px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 44px 52px;
   background: var(--paper);
