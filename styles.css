@@ -19,6 +19,7 @@ html {
 body {
   margin: 0;
   font-family: "Outfit", sans-serif;
+  line-height: 1.7;
   color: var(--ink);
   background: linear-gradient(180deg, #efe7d7 0%, var(--bg) 100%);
 }
@@ -68,6 +69,7 @@ h4 {
 .doc-header h3 {
   margin-top: 14px;
   font-size: 1.3rem;
+  line-height: 1.55;
   color: var(--muted);
   font-weight: 600;
 }
@@ -89,23 +91,26 @@ h4 {
 
 .doc-section h2 {
   font-size: 1.65rem;
+  line-height: 1.35;
 }
 
 .doc-section h3 {
   font-size: 1.4rem;
+  line-height: 1.45;
 }
 
 .doc-section h4 {
   margin-top: 24px;
   margin-bottom: 12px;
   font-size: 1.14rem;
+  line-height: 1.5;
 }
 
 .doc-section p,
 .doc-section li {
   color: var(--muted);
   font-size: 1.04rem;
-  line-height: 1.85;
+  line-height: 1.72;
 }
 
 .doc-section p {
@@ -134,6 +139,7 @@ td {
   padding: 14px 12px;
   text-align: left;
   border-bottom: 1px solid var(--line);
+  line-height: 1.6;
 }
 
 th {
